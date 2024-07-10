@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CudaCompile Include="boids.cu">
+      <Filter>boids</Filter>
+    </CudaCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_demo.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\backends\imgui_impl_dx11.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\backends\imgui_impl_win32.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_tables.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_widgets.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\misc\cpp\imgui_stdlib.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="util.cpp" />
+    <ClCompile Include="image.cpp" />
+    <ClCompile Include="renderer.cpp" />
+    <ClCompile Include="simulation.hpp" />
+    <ClCompile Include="display.cpp" />
+    <ClCompile Include="boids.cpp">
+      <Filter>boids</Filter>
+    </ClCompile>
+    <ClCompile Include="boidsCPU.cpp">
+      <Filter>boids</Filter>
+    </ClCompile>
+    <ClCompile Include="boidsGPU.cpp">
+      <Filter>boids</Filter>
+    </ClCompile>
+    <ClCompile Include="boid.cpp">
+      <Filter>boids</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{a54059ca-2e05-4a7d-947e-e292a6273631}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="boids">
+      <UniqueIdentifier>{325c5940-9664-44fa-83c3-c6de0270bdcd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imgui\misc\debuggers\imgui.natstepfilter">
+      <Filter>imgui</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="imgui\misc\debuggers\imgui.natvis">
+      <Filter>imgui</Filter>
+    </Natvis>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="util.hpp" />
+    <ClInclude Include="image.hpp" />
+    <ClInclude Include="renderer.hpp" />
+    <ClInclude Include="display.hpp" />
+    <ClInclude Include="vector2.hpp" />
+    <ClInclude Include="boid.hpp">
+      <Filter>boids</Filter>
+    </ClInclude>
+    <ClInclude Include="boids.hpp">
+      <Filter>boids</Filter>
+    </ClInclude>
+    <ClInclude Include="boidsCPU.hpp">
+      <Filter>boids</Filter>
+    </ClInclude>
+    <ClInclude Include="boidsGPU.hpp">
+      <Filter>boids</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
